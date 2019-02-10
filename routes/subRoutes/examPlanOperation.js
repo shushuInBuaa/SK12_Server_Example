@@ -7,7 +7,7 @@ var router = express.Router();
 
 router.get('/getAvailableExamPlan', function(req, res, next) {
     if(req.query.candidateId=="12211001")
-        res.send({"plan”":{"planid":"20181010100000110000","name":"期末考试","starttime":"2018/10/10 10:00:00","endtime":"2018/10/10 11:00:00"}});
+        res.send({"plan”":{"planid":"20181010100000110000","name":"期末考试","starttime":"2018-10-10 10:00:00","endtime":"2018-10-10 11:00:00"}});
     else
         res.send({"plan":null});
 });
