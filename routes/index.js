@@ -1,9 +1,10 @@
 var express = require('express');
 var router = express.Router();
+var questionBackOperation=require('./subRoutes/questionBackOperation');
+var login=require('./subRoutes/login');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+router.use(questionBackOperation);
+router.use(login);
 
 module.exports = router;

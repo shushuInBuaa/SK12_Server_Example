@@ -2,15 +2,15 @@ var express = require('express');
 var router = express.Router();
 
 /* GET users listing. */
-router.get('/', function(req, res, next) {
+router.get('/login', function(req, res, next) {
   if(req.query.username===req.query.password)
-    res.send({result:"1"});
+    res.send({"accepted":true, "username":"shushu"});
   else
-    res.send({result:"0"});
+    res.send({"accepted":false});
 
 });
 
-router.post('/', function(req,res,next){
+router.post('/login', function(req,res,next){
     if(req.body.username===req.body.password)
         res.send({result:"1"});
     else
