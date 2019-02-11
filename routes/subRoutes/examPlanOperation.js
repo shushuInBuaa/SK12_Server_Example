@@ -7,7 +7,7 @@ var router = express.Router();
 
 router.get('/getAvailableExamPlan', function(req, res, next) {
     var date=new Date();
-    date.setSeconds(date.getSeconds()+10);
+    date.setSeconds(date.getSeconds()+5);
     var starttime=date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate()+" "+(date.getHours()+8)+":"+date.getMinutes()+":"+date.getSeconds();
 
     var enddate=new Date();
