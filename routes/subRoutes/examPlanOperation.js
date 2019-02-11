@@ -8,11 +8,11 @@ var router = express.Router();
 router.get('/getAvailableExamPlan', function(req, res, next) {
     var date=new Date();
     date.setSeconds(date.getSeconds()+10);
-    var starttime=date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate()+" "+date.getHours()+":"+date.getMinutes()+":"+date.getSeconds();
+    var starttime=date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate()+" "+(date.getHours()+8)+":"+date.getMinutes()+":"+date.getSeconds();
 
     var enddate=new Date();
     enddate.setHours(date.getHours()+1);
-    var endtime=enddate.getFullYear()+"-"+(enddate.getMonth()+1)+"-"+enddate.getDate()+" "+enddate.getHours()+":"+enddate.getMinutes()+":"+enddate.getSeconds();
+    var endtime=enddate.getFullYear()+"-"+(enddate.getMonth()+1)+"-"+enddate.getDate()+" "+(enddate.getHours()+8)+":"+enddate.getMinutes()+":"+enddate.getSeconds();
 
     if(req.query.candidateId=="12211001")
         res.send({"plan":{"planid":"20181010100000110000","name":"期末考试","starttime":starttime,"endtime":endtime}});
