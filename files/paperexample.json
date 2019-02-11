@@ -3,74 +3,90 @@
     "questions":{
         "A":{
             "num":"A1",
+            "difficulty":"A",
+            "content-type":"V",
             "subquestions":[
-                {"num":"A1.1","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"A1.2","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"A1.3","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"A1.4","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"}
+            {"num":"A1.1","question":"1+1=?","choices":["3","2","1","0"]},
+            {"num":"A1.2","question":"1+1=?","choices":["3","2","1"]},
+            {"num":"A1.3","question":"1+1=?","choices":["5","4","3","2","1"]},
+            {"num":"A1.4","question":"1+1=?","choices":["2","1"]}
             ]
         },
         "B":{
             "num":"B6",
+            "difficulty":"B",
+            "content-type":"GND",
             "subquestions":[
-                {"num":"B6.1","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"B6.2","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"B6.3","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"B6.4","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"}
+            {"num":"B6.1","question":"1+1=?","choices":["3","2","1","0"]},
+            {"num":"B6.2","question":"1+1=?","choices":["3","2","1"]},
+            {"num":"B6.3","question":"1+1=?","choices":["5","4","3","2","1"]},
+            {"num":"B6.4","question":"1+1=?","choices":["2","1"]}
             ]
         },
         "C":{
             "num":"C5",
+            "difficulty":"A",
+            "content-type":"V",
             "subquestions":[
-                {"num":"C5.1","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"C5.2","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"C5.3","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"C5.4","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"}
+            {"num":"C5.1","question":"1+1=?","choices":["3","2","1","0"]},
+            {"num":"C5.2","question":"1+1=?","choices":["3","2","1"]},
+            {"num":"C5.3","question":"1+1=?","choices":["5","4","3","2","1"]},
+            {"num":"C5.4","question":"1+1=?","choices":["2","1"]}
             ]
         },
         "D":{
             "num":"D3",
+            "difficulty":"C",
+            "content-type":"DSC",
             "subquestions":[
-                {"num":"D3.1","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"D3.2","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"D3.3","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"D3.4","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"}
+            {"num":"D3.1","question":"1+1=?","choices":["3","2","1","0"]},
+            {"num":"D3.2","question":"1+1=?","choices":["3","2","1"]},
+            {"num":"D3.3","question":"1+1=?","choices":["5","4","3","2","1"]},
+            {"num":"D3.4","question":"1+1=?","choices":["2","1"]}
             ]
         },
         "E":{
             "num":"E3",
+            "difficulty":"A",
+            "content-type":"DSC",
             "subquestions":[
-                {"num":"E3.1","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"E3.2","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"E3.3","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"E3.4","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"}
+            {"num":"E3.1","question":"1+1=?","choices":["3","2","1","0"]},
+            {"num":"E3.2","question":"1+1=?","choices":["3","2","1"]},
+            {"num":"E3.3","question":"1+1=?","choices":["5","4","3","2","1"]},
+            {"num":"E3.4","question":"1+1=?","choices":["2","1"]}
             ]
         },
         "F":{
             "num":"F15",
+            "difficulty":"B",
+            "content-type":"V",
             "subquestions":[
-                {"num":"F15.1","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"F15.2","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"F15.3","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"F15.4","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"}
+            {"num":"F15.1","question":"1+1=?","choices":["3","2","1","0"]},
+            {"num":"F15.2","question":"1+1=?","choices":["3","2","1"]},
+            {"num":"F15.3","question":"1+1=?","choices":["5","4","3","2","1"]},
+            {"num":"F15.4","question":"1+1=?","choices":["2","1"]}
             ]
         },
         "G":{
             "num":"G7",
+            "difficulty":"A",
+            "content-type":"GND",
             "subquestions":[
-                {"num":"G7.1","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"G7.2","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"G7.3","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"G7.4","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"}
+            {"num":"G7.1","question":"1+1=?","choices":["3","2","1","0"]},
+            {"num":"G7.2","question":"1+1=?","choices":["3","2","1"]},
+            {"num":"G7.3","question":"1+1=?","choices":["5","4","3","2","1"]},
+            {"num":"G7.4","question":"1+1=?","choices":["2","1"]}
             ]
         },
         "H":{
             "num":"H10",
+            "difficulty":"C",
+            "content-type":"GND",
             "subquestions":[
-                {"num":"H10.1","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"H10.2","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"H10.3","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"},
-                {"num":"H10.4","question":"1+1=?","A":"3","B":"2","C":"1","D":"0"}
+            {"num":"H10.1","question":"1+1=?","choices":["3","2","1","0"]},
+            {"num":"H10.2","question":"1+1=?","choices":["3","2","1"]},
+            {"num":"H10.3","question":"1+1=?","choices":["5","4","3","2","1"]},
+            {"num":"H10.4","question":"1+1=?","choices":["2","1"]}
             ]
         }
     }
